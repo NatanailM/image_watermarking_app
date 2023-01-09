@@ -4,7 +4,8 @@ from tkinter import filedialog
 from PIL import Image, ImageTk, ImageDraw, ImageFont
 
 window = tk.Tk()
-window.minsize(width=250, height=250)
+window.title("Watermarking Desktop App")
+window.minsize(width=800, height=780)
 
 
 def open_image():
